@@ -3,10 +3,22 @@ Community Decentralised Building Identity
 
 
 
-
 # CODE
 
 Le but est de relier les `proposals` d'un DAO à un compte Twitter. 
+
+Une idée pourrait être de créer un fichier Python qui observe les actions du DAO et lorsqu'il voit un action : `Vote` avec une `proposal` de la forme "POST : ..." (par exemple) prendrait le contenu qui suit "POST" et ferait un Tweet contenant ce texte. 
+
+Pour ce faire il va falloir :
+
+i) Intéragir on-chain avec le DAO (au moins pouvoir récupérer les actions et arguments) ;  
+
+ii) Communiquer avec l'API Twitter pour mettre online le POST souhaité (ou réaliser l'action souhaitée) ;
+
+iii) Faire tourner tout ça en continue ou au moins s'assurer de l'éxecution de ce code suite à la validation d'une telle `proposal`. 
+
+
+# Présentation des outils de DAOs
 
 ## Cycles de vie d'une `proposal`
 
@@ -29,11 +41,18 @@ Dont le détail est trouvable à l'adresse **https://explorer.testnet.near.org/t
 
 Ces informations se trouvent dans les arguments de la transaction. *Je vais chercher la commande pour détailler les opérations d'une transaction en ligne de commande.*
 
+Suite à quoi la proposition a un statut noté `finalized` et `approved` ou `rejected`.
 
+## Proposition de mise en pratique
 
+Pour mettre en pratique tout ceci je vous propose que suite à la création d'un wallet sur testnet, nous créeyons un DAO afiin de s'exercer à prendre des décisions basiques entres nous. 
 
-### Repo AstroDAO (UI)
- Le repo de ce site se trouve ici **https://github.com/near-daos/astro-ui** s'il vous intéresse. Ce repo peut-être utile pour récupérer des infos 
+Cela permettra de voir ce qu'il en est et de mieux saisir les utilisations et limitations. 
+
+N'hésitez pas à détailler vos visions et à ce que l'on échange dans les différents canaux sur ce repo !
+
+###### Repo AstroDAO (UI)
+Le repo d'AstroDAO UI se trouve ici **https://github.com/near-daos/astro-ui** s'il vous intéresse. Ce repo peut-être utile pour récupérer des infos 
 
 
 
