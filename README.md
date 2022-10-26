@@ -18,7 +18,52 @@ ii) Communiquer avec l'API Twitter pour mettre online le POST souhaité (ou réa
 iii) Faire tourner tout ça en continue ou au moins s'assurer de l'éxecution de ce code suite à la validation d'une telle `proposal`. 
 
 
-# Présentation des outils de DAOs
+## Les étapes d'un Algo
+
+### Répétition de la boucle
+
+Ici la répétition peut être dans un premier temps toutes les 6h puis sera affiner avec le temps et la maturation du projet.
+
+### Récupère le `Texte` à poster
+
+Pour récupérer le `Texte` je pense qu'il va falloir faire de la ligne de commande. 
+
+Pour ce faire deux choses à utiliser d'après moi : 
+
+\item
+```bash
+npm install -g near-cli
+
+near login
+```
+Les infos sur **https://github.com/near/near-cli**
+
+\item
+Soit tout faire avec `near` soit utiliser la commande `sputnik` **https://github.com/cloudmex/sputnikdao-cli**
+
+```bash
+npm install -g sputnikdao
+
+sputnikdao --help
+```
+
+Avec ces commandes il doit être relativement aisé de récupérer la Description de la `proposal` souhaitée.
+
+
+### Exécute le Post Twitter avec le `Texte`
+
+Afin d'exécuter le POST sur Twitter, il doit falloir exécuter une commande du style : 
+`https://twitter.api.com/POST/ACCES_KEYS/title=""?message="`Text``
+
+Pour cela il faut tester et creuser : **https://developer.twitter.com/en/docs/twitter-api/migrate/twitter-api-endpoint-map** 
+Un topic *help* provenant de Twitter est dispo à l'adresse **https://help.twitter.com/en/rules-and-policies/twitter-api**
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+# Présentation très courte des DAOs
 
 ## Cycles de vie d'une `proposal`
 
