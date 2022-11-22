@@ -1,5 +1,6 @@
 # CDBI
-Community Decentralised Building Identity
+
+**Community Decentralised Building Identity**
 
 
 
