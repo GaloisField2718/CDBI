@@ -13,7 +13,16 @@ Fill `config.py` file.
 
 
 
+# What you need ?
 
+A twitter developper account (in free and basic version [Twitter developers](https://developer.twitter.com/en)) and tokens with `Write Permission`.
+
+At least one Near Wallet to create the DAO and post proposals, you can [create a wallet on testnet](https://wallet.testnet.near.org/) or [on the mainnet](https://wallet.near.org/).
+
+
+# How to create a DAO on AstroDAO
+
+[Doc AstroDAO](https://github.com/near-daos/astro-ui/wiki/Use-cases#why-start-a-dao) This documentation is not fulfil but I will complete it soon.
 
 
 
