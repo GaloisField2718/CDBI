@@ -3,6 +3,25 @@ Community Decentralised Building Identity
 
 
 
+# How to install
+
+``` bash
+pip3 install tweepy
+```
+Fill config.py file.
+
+
+
+
+
+
+
+
+
+
+# Working discussion with the Team
+
+
 # CODE
 
 Le but est de relier les `proposals` d'un DAO à un compte Twitter. 
