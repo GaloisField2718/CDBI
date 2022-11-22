@@ -8,9 +8,7 @@ Community Decentralised Building Identity
 ``` bash
 pip3 install tweepy
 ```
-Fill config.py file.
-
-
+Fill `config.py` file.
 
 
 
