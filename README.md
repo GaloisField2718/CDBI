@@ -29,7 +29,7 @@ At least one Near Wallet to create the DAO and post proposals, you can [create a
 # Working discussion with the Team
 
 
-# CODE
+### CODE
 
 Le but est de relier les `proposals` d'un DAO à un compte Twitter. 
 
@@ -44,13 +44,13 @@ ii) Communiquer avec l'API Twitter pour mettre online le POST souhaité (ou réa
 iii) Faire tourner tout ça en continue ou au moins s'assurer de l'éxecution de ce code suite à la validation d'une telle `proposal`. 
 
 
-## Les étapes d'un Algo
+### Les étapes d'un Algo
 
-### Répétition de la boucle
+#### Répétition de la boucle
 
 Ici la répétition peut être dans un premier temps toutes les 6h puis sera affiner avec le temps et la maturation du projet.
 
-### Récupère le `Texte` à poster
+#### Récupère le `Texte` à poster
 
 Pour récupérer le `Texte` je pense qu'il va falloir faire de la ligne de commande. 
 
@@ -76,7 +76,7 @@ sputnikdao --help
 Avec ces commandes il doit être relativement aisé de récupérer la Description de la `proposal` souhaitée.
 
 
-### Exécute le Post Twitter avec le `Texte`
+#### Exécute le Post Twitter avec le `Texte`
 
 Afin d'exécuter le POST sur Twitter, il doit falloir exécuter une commande du style : 
 `https://twitter.api.com/POST/ACCES_KEYS/title=""?message="`Text``
@@ -89,9 +89,9 @@ Un topic *help* provenant de Twitter est dispo à l'adresse **https://help.twitt
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-# Présentation très courte des DAOs
+## Présentation très courte des DAOs
 
-## Cycles de vie d'une `proposal`
+### Cycles de vie d'une `proposal`
 
 Les `proposals` sont créés via une interface utilisateur (UI) **https://testnet.app.astrodao.com/all/feed** ou ON-CHAIN (via une commande à télécharger : `npm install near-cli` et le déploiement des "contrats" via cette commande). 
 Les arguments créés sont de cette forme : 
@@ -114,7 +114,7 @@ Ces informations se trouvent dans les arguments de la transaction. *Je vais cher
 
 Suite à quoi la proposition a un statut noté `finalized` et `approved` ou `rejected`.
 
-## Proposition de mise en pratique
+### Proposition de mise en pratique
 
 Pour mettre en pratique tout ceci je vous propose que suite à la création d'un wallet sur testnet, nous créeyons un DAO afiin de s'exercer à prendre des décisions basiques entres nous. 
 
@@ -122,7 +122,7 @@ Cela permettra de voir ce qu'il en est et de mieux saisir les utilisations et li
 
 N'hésitez pas à détailler vos visions et à ce que l'on échange dans les différents canaux sur ce repo !
 
-###### Repo AstroDAO (UI)
+####### Repo AstroDAO (UI)
 Le repo d'AstroDAO UI se trouve ici **https://github.com/near-daos/astro-ui** s'il vous intéresse. Ce repo peut-être utile pour récupérer des infos 
 
 
